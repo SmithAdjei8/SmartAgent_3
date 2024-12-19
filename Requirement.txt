@@ -1,0 +1,3 @@
+Install openai
+Install flask
+Install langchain-openai
