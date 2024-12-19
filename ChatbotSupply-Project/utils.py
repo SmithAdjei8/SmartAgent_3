@@ -10,7 +10,7 @@ import mysql.connector
 import pickle
 
 #initialize OPENAI API with Key
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'Key here'
 client = ChatOpenAI(model = "gpt-3.5-turbo-0125", temperature=0)
 
 #Load the model
