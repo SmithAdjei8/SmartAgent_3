@@ -21,6 +21,7 @@ def AIChat():
         primer = f"""
                 You are an intelligent Assistant
             """
+        
         response = asksingle_langchain_ai_agent(primer,input)
         return jsonify({"response":response})
     except Exception as e:
